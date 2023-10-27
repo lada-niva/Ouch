@@ -85,6 +85,7 @@ function PrettyPageHandler(theme, pageTitle, editor, sendResponse, additionalScr
         "sublime": "subl://open?url=file://%file&line=%line",
         "textmate": "txmt://open?url=file://%file&line=%line",
         "emacs": "emacs://open?url=file://%file&line=%line",
+        "vscode"   => "vscode://file/%file:%line",
         "macvim": "mvim://open/?url=file://%file&line=%line"
     };
 }
