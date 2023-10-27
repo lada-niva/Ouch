@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "Javascript error handling for cool kids",
   "main": "Ouch.js",
+  "types": "Ouch.d.ts",
   "scripts": {
     "test": "mocha",
     "dev": "mocha --watch",
